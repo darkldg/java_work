@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오디오 비디오 태그</title>
+</head>
+<body>
+    <!-- object태그=오디오,비디오,pdf등 다양한 파일을 실행하는 태그 -->
+    <object width="900" height="800" data="medias/product.pdf"></object>
+    <!-- object,vidio,audio태그가 실행되지 않는 옛날 브라우저에서 
+                파일이 실행하는 태크 -->
+    <embed src="medias/spring.mp3">
+    <!-- audio, vidio 태그의 속성들 -->
+    <!-- controls : 컨트롤 패널 출력한다. -->
+    <!-- autoplay : 자동재생이 있긴한데 작동하지 않는다.비디오는 가능 -->
+    <!-- muted : 음소거 -->
+    <!-- loop: 반복재생 -->
+    <!-- poster="파일이름":비디오의 썸네일(재생되기 전의 이미지) -->
+    <audio src="medias/spring.mp3" controls></audio>    
+    <video width="300" height="200" src="https://youtu.be/FuiIVnc8Fg8?si=PSL8B3gSo_-McJma"></video>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/FuiIVnc8Fg8?si=lrQfpM6eYBQ2iDa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+    <embed src="https://youtu.be/FuiIVnc8Fg8?si=PSL8B3gSo_-McJma">
+</body>
+</html>
