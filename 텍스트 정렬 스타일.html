@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 정렬 스타일</title>
+    <style>
+        /* line-height : 줄 간격
+        , div나 h1같은 영역을 가지는 태그의 세로크기와 line-height동일하게 설정하면 세로 중앙 정렬이 실행됨 */
+        h1{
+            border:1px solid #000;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+        }
+        p{border:1px solid #000;}
+        /* text-align : 가로 정렬  */
+        .p1{text-align:center;}
+        /* letter-spacing : 글자 간격 */
+        /* word spacing : 단어 간격 */
+        .p2{text-align:start; line-height: 20px; letter-spacing: 10px;}
+        .p3{text-align:end; line-height: 30px;word-spacing: 20px;}
+        .p4{text-align:justify; line-height: 40px;word-spacing: 30px;}
+        
+        .s1{text-decoration: underline;}
+        .s2{text-decoration: line-through;}
+        .s3{text-decoration: overline;}
+        
+        a{text-decoration: none; color: #000;}
+        a:hover{text-decoration: underline;}
+
+        .shodow1{text-shadow: 1px 2px 3px black;}
+        .shodow2{text-shadow: 3px 3px 3px red;}
+        .shodow3{text-shadow: -7px -7px 20px blue;}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>레드향</h1>
+        <p class="p1">
+            <span class="s1 shodow1">껍질</span>에 
+            <span class="s2 shodow2">붉은 빛</span>이 돌아 
+            <span class="s3 shodow3">레드향</span>이라 불린다.
+        </p>
+        <p><a href="#">네이버</a></p>
+        <p class="p2">레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+        <p class="p3">비타민 C와 비타민P가 풍부해 혈액순환, 감기예방 등에 좋은 것으로 알려져 있다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+        <p class="p4">비타민 C와 비타민P가 풍부해 혈액순환, 감기예방 등에 좋은 것으로 알려져 있다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+    </div>
+</body>
+</html>
